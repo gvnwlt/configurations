@@ -44,8 +44,8 @@ set ignorecase
 "3 tags
 set tagbsearch "use binary searching in tags files
 "set taglength "number of significant characters in a tag name or zero
-set tag=./tags,./TAGS,tags,TAGS "list of file names to search for tags
-set tagcase=followic
+set tag=./tags,./TAGS,tags,TAGS
+"set tagcase=followic
 
 "4 displaying text
 "set scroll=13
@@ -74,9 +74,9 @@ set hidden "don't unload a buffer when no longer shown in a window
 "set switchbuf "[useopen] and/or [split]; which window to use when jumping
 set splitbelow "splits window beneath current one
 "set splitright "splits window to the right of the current one
-set noscrollbind "windows scroll together with other bound windows
-set termsize= "size of a terminal window
-set termkey= "key that precedes Vim commands in a terminal window
+set noscrollbind
+"set termsize=
+"set termkey=
 
 "7 multiple tab pages
 set showtabline=1 "0, 1 or 2; when to use tab pages line
@@ -200,17 +200,17 @@ let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 
 "easy buffer navigation
-:nnoremap \<C-n> :bnext\<CR> "next buf with ctrl+n
-:nnoremap \<C-p> :bprevious\<CR> "prev buf with ctrl+p
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>
 ":nmap \<C-n> :bnext\<CR> "next buf with ctrl+n
 ":nmap \<C-p> :bprevious\<CR> "prev buf with ctrl+p
 
 
 "easy split navigation 
-:nnoremap \<C-j> \<C-W>j 
-:nnoremap \<C-k> \<C-W>k 
-:nnoremap \<C-h> \<C-W>h 
-:nnoremap \<C-l> \<C-W>l 
+:nnoremap <C-j> <C-W>j 
+:nnoremap <C-k> <C-W>k 
+:nnoremap <C-h> <C-W>h 
+:nnoremap <C-l> <C-W>l 
 
 " Powerline (if installed with pip)
 "set rtp+=/usr/share/powerline/bindings/vim/
