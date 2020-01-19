@@ -120,7 +120,7 @@ set noshowcmd "show command keys in status line
 set showmode "display current mode in the status line
 set ruler "show cursor position below each window
 set visualbell
-set t_vb= "set visual bell to do nothing
+set vb t_vb= "set visual bell to do nothing
 "set rulerformat= "alternate format to be used for the ruler
 set report=2 "threshold for reporting number of changed lines
 set more "pause listings when the screen is full
