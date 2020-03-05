@@ -5,3 +5,8 @@ alias shout='printenv | grep -i'
 alias hs='history | grep -i'
 
 alias findRecent='find . -type f -mtime 0'
+
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../../'
+
