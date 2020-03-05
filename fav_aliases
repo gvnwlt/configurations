@@ -1,0 +1,7 @@
+alias isa='ps aux | grep -i'
+
+alias shout='printenv | grep -i'
+
+alias hs='history | grep -i'
+
+alias findRecent='find . -type f -mtime 0'
